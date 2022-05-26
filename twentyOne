@@ -1,0 +1,9 @@
+let b = 3;
+let h = 6;
+let area = (b * h) / 2;
+
+if (b > 0 && h > 0) {
+  console.log("The area is " + area);
+} else {
+  console.log("INVALID INPUT ERROR");
+}
